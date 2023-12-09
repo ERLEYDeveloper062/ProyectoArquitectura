@@ -8,9 +8,7 @@ export class Memoria {
   }
 
   obtenerInstruccion(direccion: number): Instruccion | undefined {
-    if (direccion < 0 || direccion >= this.celdas.length) {
-      throw new Error("Dirección de memoria fuera de rango");
-    }
+    console.log(direccion);
     return this.celdas[direccion];
   }
 

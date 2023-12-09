@@ -37,7 +37,7 @@ export class ALU {
 
   private divide(operando1: number, operando2: number): number {
     if (operando2 === 0) {
-      throw new Error("División por cero");
+      return 0
     }
     return operando1 / operando2;
   }
