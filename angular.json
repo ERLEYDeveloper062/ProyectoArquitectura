@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "CPU-simulador:build:production"
+              "buildTarget": "CPU-simulador:build:production"
             },
             "development": {
-              "browserTarget": "CPU-simulador:build:development"
+              "buildTarget": "CPU-simulador:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "CPU-simulador:build"
+            "buildTarget": "CPU-simulador:build"
           }
         },
         "test": {
